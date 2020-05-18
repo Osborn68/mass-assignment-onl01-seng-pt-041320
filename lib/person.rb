@@ -7,6 +7,7 @@ attr_accessor :name, :birthday, :hair_color, :eye_color, :height,
 def initialize(hash=nil)
   if hash 
     hash.each |k,v|
-    self.send ("#{k}, 
+    self.send ("#{k}, v")
+  end
   
 end
