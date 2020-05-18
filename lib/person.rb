@@ -1,9 +1,6 @@
 class Person
 
 
-def initialize(hash)
-  @name = name 
-  @height = height
-  @handed = handed
+def initialize(hash=nil)
   
 end
