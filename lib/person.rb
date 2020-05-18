@@ -11,3 +11,4 @@ def initialize(hash=nil)
   end
 end
 end
+end
